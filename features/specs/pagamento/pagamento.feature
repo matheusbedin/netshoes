@@ -5,7 +5,7 @@ Funcionalidade: Pagamento
         Dado que esteja na tela de pagamento
 
         Esquema do Cenário: Forma de Pagamento
-            Quando escolher forma de pagamento <Forma de Pagamento>
+            Quando escolher <Forma de Pagamento>
             Então deverá ir para a tela "Resumo do pedido"
 
                 Exemplos:
