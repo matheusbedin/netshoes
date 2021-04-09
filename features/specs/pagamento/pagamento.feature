@@ -18,5 +18,17 @@ Funcionalidade: Pagamento
         Esquema do Cenário: Alterarção de Endereço
             Quando selecionar a opção "Alterar Endereço"
             Então deverá abrir o popup de "Endereços Cadastrados"
+            Quando alterar algum <Campo>
+            E selecionar "Salvar Endereço"
+            Então deverá exibir o endereço alterado
+
+                Exemplos:
+                    | Campo              |
+                    | Nome do Endereço   |
+                    | Nome do Destinaário|
+                    | Seu Cep            |
+                    | Número             |
+                    | Ponto de Referência|
+                    | Nome do Endereço   |
  
 
