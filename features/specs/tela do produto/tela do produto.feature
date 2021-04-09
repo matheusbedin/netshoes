@@ -4,7 +4,7 @@ Funcionalidade: Tela do Produto
     Dado que esteja na tela do produto
 
     Esquema do Cenário: Seleção de cor
-    Quando selecionar a cor <cor>
+    Quando selecionar <cor>
     Então deverá exibir "a cor selecionada é" <Cor>
 
     Exemplos:

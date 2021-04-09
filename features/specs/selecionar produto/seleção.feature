@@ -22,11 +22,14 @@ Funcionalidade: Seleção de produto
             | Eletrônicos |
                     
         Esquema do Cenário: Seleção produto
-        Quando selecionar o produto <produto>
-        Então deverá acessar a tela do produto
+        Dado que esteja na tela de <categoria>
+        Quando selecionar o <Produto>
+        Então deverá acessar a tela do <Produto>
 
         Exemplos: 
-            | Produto |
-            | Tênis   |
-            | Chinelo |
-            | Mochila |
+            | Produto  |
+            | Tênis    |
+            | Chinelo  | 
+            | Mochila  |
+            | Calça    |
+            | Camiseta |
