@@ -27,7 +27,6 @@ Funcionalidade: Login
                 | PJ          | cnpj inválido             | CNPJ inválido      |             
  
         Esquema do Cenário: Login
-            Dado que esteja na home
             Quando realizar login com usuário <usuario> e senha <senha>
             Então o nome do usuário deverá ser exibido no header
  
