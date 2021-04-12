@@ -2,7 +2,7 @@
 Funcionalidade: Tela do Produto
     Dado que esteja na tela do produto
 
-    Esquema do Cenário: Seleção de cor
+    Cenário: Seleção de cor
     Quando selecionar <cor>
     Então deverá exibir "a cor selecionada é" <Cor>
 
@@ -19,7 +19,7 @@ Funcionalidade: Tela do Produto
         | Lilás    |
         | Rosa     |
 
-    Esquema do Cenário: Seleção de tamanho
+    Cenário: Seleção de tamanho
     Quando selecionar o tamanho <tamanho>
     Então deverá exibir "O tamanho selecionado é "<Tamanho>
 
@@ -37,7 +37,7 @@ Funcionalidade: Tela do Produto
         | 40      |
         | 41      |
 
-    Esquema do Cenário: Comprar
+    Cenário: Comprar
     Quando selecionar a <Cor> 
     E e selecionar o <tamanho>
     E selecionar a opção "Comprar"
