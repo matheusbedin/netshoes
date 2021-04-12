@@ -1,6 +1,5 @@
 #language:pt
 Funcionalidade: Tela do Produto
-    Contexto: Selecionar Tamanho e cor
     Dado que esteja na tela do produto
 
     Esquema do Cenário: Seleção de cor
